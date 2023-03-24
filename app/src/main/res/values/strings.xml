@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyBanjir</string>
+    <string name="LogoD1">LogoWord</string>
+    <string name="FavouriteMain">Mainpage Favourite</string>
+    <string name="MenuMain">Menu</string>
+    <string name="warningmain">WarningMain</string>
+    <string name="reportmain">ReportMain</string>
+    <string name="locate">Locate</string>
+    <string name="settingsbutton">SettingsButton</string>
+    <string name="closemenubutton">CloseMenuButton</string>
+    <string name="alertcentreclose">AlertCentreClose</string>
+    <string name="report">Report</string>
+    <string name="flood">Flood</string>
+    <string name="hazard">Hazard</string>
+    <string name="map_issue">Map issue</string>
+    <string name="flooded_road">Flooded Road</string>
+    <string name="sos">SOS</string>
+    <string name="other">Other</string>
+    <string name="reportclosebutton">ReportCloseButton</string>
+    <string name="rptfloodbutton">RptFloodButton</string>
+    <string name="rpthazardbutton">RptHazardButton</string>
+    <string name="rptmapbutton">RptMapButton</string>
+    <string name="rptroadbutton">RptRoadButton</string>
+    <string name="rptotherbutton">RptOtherButton</string>
+    <string name="rptsosbutton">RptSOSButton</string>
+    <string name="title_activity_status">Status</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

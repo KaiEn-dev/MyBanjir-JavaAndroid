@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyBanjir/app/src/main/res/drawable/dummybg.xml" value="0.3828125" />
+        <entry key="..\:/MyBanjir/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/MyBanjir/app/src/main/res/drawable/shadow.xml" value="0.3828125" />
+        <entry key="..\:/MyBanjir/app/src/main/res/drawable/whiteline.xml" value="0.3828125" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_alert_centre.xml" value="0.25" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_current_location_status.xml" value="0.36231884057971014" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_favourite.xml" value="0.44082125603864736" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_home_setup.xml" value="0.33" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_main.xml" value="0.6556016597510373" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_maps.xml" value="0.35688405797101447" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_report.xml" value="0.36231884057971014" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_report_history.xml" value="0.338768115942029" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_search.xml" value="0.5" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/activity_status.xml" value="0.25" />
+        <entry key="..\:/MyBanjir/app/src/main/res/layout/list_view_items.xml" value="0.34556159420289856" />
+        <entry key="..\:/MyBanjir/app/src/main/res/menu/menu.xml" value="0.31746031746031744" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Transparent_Black"
+    tools:context=".Report.Reports">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ReportTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="@string/report"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ReportClose"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/reportclosebutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/closewhite" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="410dp"
+        android:layout_height="627dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout">
+
+        <ImageView
+            android:id="@+id/RptFlood"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/rptfloodbutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/RptHazard"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057"
+            app:srcCompat="@drawable/rptflood"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/RptHazard"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/rpthazardbutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057"
+            app:srcCompat="@drawable/rpthazard" />
+
+        <ImageView
+            android:id="@+id/RptMap"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/rptmapbutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/RptRoad"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42"
+            app:srcCompat="@drawable/rptmap" />
+
+        <ImageView
+            android:id="@+id/RptRoad"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/rptroadbutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42"
+            app:srcCompat="@drawable/rptroad"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/RptSos"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/rptsosbutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.79"
+            app:srcCompat="@drawable/rptsos" />
+
+        <ImageView
+            android:id="@+id/RptOther"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/rptotherbutton"
+            android:onClick="Clicked"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.79"
+            app:srcCompat="@drawable/rptother" />
+
+        <TextView
+            android:id="@+id/RptFloodTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/flood"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/RptFlood"
+            app:layout_constraintStart_toStartOf="@+id/RptFlood"
+            app:layout_constraintTop_toBottomOf="@+id/RptFlood" />
+
+        <TextView
+            android:id="@+id/RptHazardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/hazard"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/RptHazard"
+            app:layout_constraintStart_toStartOf="@+id/RptHazard"
+            app:layout_constraintTop_toBottomOf="@+id/RptHazard" />
+
+        <TextView
+            android:id="@+id/RptMapTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/map_issue"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/RptMap"
+            app:layout_constraintStart_toStartOf="@+id/RptMap"
+            app:layout_constraintTop_toBottomOf="@+id/RptMap" />
+
+        <TextView
+            android:id="@+id/RptRoadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/flooded_road"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/RptRoad"
+            app:layout_constraintStart_toStartOf="@+id/RptRoad"
+            app:layout_constraintTop_toBottomOf="@+id/RptRoad" />
+
+        <TextView
+            android:id="@+id/RptSosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/sos"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/RptSos"
+            app:layout_constraintStart_toStartOf="@+id/RptSos"
+            app:layout_constraintTop_toBottomOf="@+id/RptSos" />
+
+        <TextView
+            android:id="@+id/RptOtherTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/other"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/RptOther"
+            app:layout_constraintStart_toStartOf="@+id/RptOther"
+            app:layout_constraintTop_toBottomOf="@+id/RptOther" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
