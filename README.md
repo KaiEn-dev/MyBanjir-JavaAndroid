@@ -7,4 +7,8 @@ MyBanjir is a Flood Alert mobile application build for Malaysians.
 - Java
 - Android Studio
 - Google Maps Api
-- 
+### Demo
+> android apk demo no longer available (google maps api free trial ended)
+### Screenshots
+<br/>home page<br/>
+![home page](/Screenshots/Home1.png)
